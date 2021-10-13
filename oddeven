@@ -1,5 +1,5 @@
-num = int(input("Enter a Number:"))
-if (num % 2) == 0:
-    print("{0} is Even Number".format(num))
+box = int(input("Enter a Number:"))
+if box % 2 == 0:
+    print("it's even")
 else:
-    print("{0} is Odd Numer".format(num))
+    print("it's odd")
